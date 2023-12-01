@@ -5,7 +5,9 @@
     "main": "index.js",
     "scripts": {
         "test": "jest",
-        "lint": "eslint ."
+        "lint": "./node_modules/.bin/eslint",
+        "dev": "npx babel-node",
+        "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
     },
     "keywords": [],
     "author": "Adham",
