@@ -1,5 +1,4 @@
 const weakMap = new WeakMap();
-// eslint-disable-next-line jest/require-hook
 let count = 1;
 
 const queryAPI = (endpoint) => {
